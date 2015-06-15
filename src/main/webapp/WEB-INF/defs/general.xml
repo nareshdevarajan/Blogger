@@ -10,6 +10,21 @@
   <definition name="index" extends="common">
     <put-attribute name="title" value="Java Blogger" />
     <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
-   
+    <put-attribute name="current" value="index"></put-attribute>
   </definition>
+  
+  <definition name="users" extends="common">
+    <put-attribute name="title" value="users" />
+    <put-attribute name="body" value="/WEB-INF/jsp/users.jsp" />
+     <put-attribute name="current" value="users"></put-attribute>
+  </definition>
+  
+  <definition name="user-detail" extends="common">
+    <put-attribute name="title" value="users" />
+    <put-attribute name="body" value="/WEB-INF/jsp/user-detail.jsp" />
+     <put-attribute name="current" value="users"></put-attribute>
+  </definition>
+  
+  
+  
 </tiles-definitions>
