@@ -25,7 +25,7 @@ public class UserController {
 	
 	@RequestMapping("/users/{id}")
 	public String details(Model model, @PathVariable int id){
-		model.addAttribute("users", userService.findone(id));
+		model.addAttribute("user-detail", userService.findone(id));
 		return "user-detail";
 	}
 	
